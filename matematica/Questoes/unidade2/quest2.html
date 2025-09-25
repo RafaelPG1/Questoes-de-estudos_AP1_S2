@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIDADE 2 – Noções de funções</title>
+    <link rel="stylesheet" href="quest2.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="quiz-header">
+        <h1>UNIDADE 2 – Noções de funções</h1>
+        <h2 class="subtitle">Fundamentos e Aplicações</h2>
+        
+        <div class="topics-list">
+            <div class="topic-item">2.1 Funções de primeiro grau</div>
+            <div class="topic-item">2.2 Funções custo, receita e lucro do 1° grau</div>
+            <div class="topic-item">2.3 Funções demanda e oferta do 1° grau</div>
+            <div class="topic-item">2.4 Função quadrática</div>
+            <div class="topic-item">2.5 Função receita</div>
+            <div class="topic-item">2.6 Função lucro quadrática</div>
+            <div class="topic-item">2.7 Função polinomial</div>
+            <div class="topic-item">2.8 Função logaritmo</div>
+            <div class="topic-item">2.9 Função exponencial</div>
+        </div>
+    </div>
+
+    <div class="quiz-container" id="quiz-container">
+        <!-- Questões serão inseridas aqui pelo JavaScript -->
+    </div>
+
+    <div class="submit-container">
+        <div class="buttons-container">
+            <a href="../ques.html" class="action-button back-button">VOLTAR</a>
+            <button id="clear" class="action-button clear-button">LIMPAR RESPOSTAS</button>
+            <button id="submit" class="action-button">ENVIAR RESPOSTAS</button>
+            <button id="restart" class="action-button restart-button" style="display: none;">REINICIAR QUIZ</button>
+            <button id="reveal" class="action-button reveal-button">REVELAR RESPOSTAS</button>
+        </div>
+    </div>
+
+<div class="nav-float">
+    <button id="btn-up" class="nav-btn"><i class="fas fa-arrow-up-long"></i></button>
+    <button id="btn-left" class="nav-btn"><i class="fas fa-rotate-left"></i></button>
+    <button id="btn-down" class="nav-btn"><i class="fas fa-arrow-down-long"></i></button>
+
+        <span class="nav-text">&gt;</span>
+<!-- Novos botões apenas com ícones -->
+    <button id="clearButton" class="nav-btn"><i class="fas fa-eraser"></i></button>
+    <button id="submitButton" class="nav-btn"><i class="fas fa-paper-plane"></i></button>
+    <button id="revealButton" class="nav-btn"><i class="fas fa-eye"></i></button>
+
+</div>
+
+
+    <div id="results" class="results"></div>
+    
+    <script src="../../../storage.js"></script>
+    <script src="quest2.js"></script>
+</body>
+
+</html>
